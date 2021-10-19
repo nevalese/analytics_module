@@ -1,0 +1,26 @@
+{
+  "name": "picktech/analytics",
+  "description": "Модуль для PickTech",
+  "keywords": ["bitrix", "d7"],
+  "type": "bitrix-d7-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Neverovich",
+      "email": "alex@neverovich.com"
+    }
+  ],
+  "extra": {
+    "installer-name": "pt.analytics"
+  },
+  "autoload": {
+    "psr-4": {
+      "Picktech\\Analytics\\": "lib/"
+    }
+  },
+  "require": {
+    "composer/installers": "~1.0",
+    "spaceonfire/bitrix-tools": "^0.8.6",
+    "spaceonfire/bmf": "^1.1"
+  }
+}
